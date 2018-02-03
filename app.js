@@ -149,8 +149,9 @@ new branch for your work on the next question!
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+    const manyMultiply = sumAndMultiply(testArray[0], testArray[1], testArray[2]);
+    return [manyMultiply[1], 'The numbers ' + testArray + ' have a product of ' + manyMultiply[1] + '.'];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray();
+testMultiplyArray();
