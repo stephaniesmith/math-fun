@@ -115,11 +115,12 @@ IMPORTANT DETAIL! IMPORTANT DETAIL! IMPORTANT DETAIL!
 // Write your code here
 
 function sumArray(testArray){ //eslint-disable-line
-
+    const largeSum = sumAndMultiply(testArray[0], testArray[1], testArray[2]);
+    return [largeSum[0], testArray + ' was passed in as an array of numbers, and ' + largeSum[0] + ' is their sum.'];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
-// testSumArray();
+testSumArray();
 
 
 /////////////////////////////////////
